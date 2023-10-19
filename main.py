@@ -165,7 +165,6 @@ def roll_dice():
         return result
     except ValueError as e:
         return str(e)
-
 # Приклад використання:
 try:
     dice_result = roll_dice()
